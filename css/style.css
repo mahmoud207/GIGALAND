@@ -179,7 +179,7 @@ section {
 
     body {
       height: 150vh;
-      overflow-X: hidden;
+      background-repeat: repeat;
     }
    
    .connect{
