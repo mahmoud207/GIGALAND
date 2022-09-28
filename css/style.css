@@ -27,6 +27,7 @@ ul li {
 .page {  
     display: grid;
     height: 100vh;
+    overflow: hidden;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: 90px auto 90px;
     grid-template-areas: "logo logo logo nav nav nav nav nav nav nav"
