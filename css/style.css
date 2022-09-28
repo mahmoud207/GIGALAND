@@ -177,9 +177,12 @@ section {
 
     body {
       height: 150vh;
-      overflow: hidden;
     }
    
+   .page {
+    overflow-x: hidden;
+}
+
    .connect{
     display: none;
    }
