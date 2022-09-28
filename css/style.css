@@ -171,12 +171,28 @@ section {
 }
 
 @media(max-width: 768px){
+   .var-girl{
+    display: none;
+   }
+   ul li {
+    display: none;
+   }
+   .connect {
+    display: none;
+   }
+   .logo {
+    width: 150px;
+   }
+}
+
+@media(max-width: 450px){
     ul li {
         display: none;
     }
 
     body {
       height: 150vh;
+      overflow: hidden;
     }
    
    .connect{
@@ -185,7 +201,7 @@ section {
 
    .logo {
       margin-top: 15px;
-      width: 170px;
+      width: 150px;
    }
    
    .page {
