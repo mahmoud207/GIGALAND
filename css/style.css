@@ -6,7 +6,7 @@
 }
 
 body {
-    height: 100vh;
+    height: 150vh;
     background-image:  url(../img/download.png),  linear-gradient(to top, #2e3033f2, #ad5389, #3c1053);
     background-repeat: no-repeat;
     background-size: cover;
@@ -172,7 +172,12 @@ section {
 }
 
 @media(max-width: 768px){
-   .var-girl{
+   body {
+    height: 150vh;
+    overflow: hidden;
+   }
+   
+    .var-girl{
     display: none;
    }
    ul li {
@@ -181,6 +186,11 @@ section {
    .connect {
     display: none;
    }
+
+   .page {
+    overflow: hidden;
+   }
+   
    .logo {
     width: 150px;
    }
