@@ -172,7 +172,7 @@ section {
 
 @media(max-width: 768px){
    body {
-    height: 150vh;
+    height: 100vh;
     overflow: hidden;
    }
    
@@ -187,7 +187,8 @@ section {
    }
 
    .page {
-    overflow: hidden;
+    overflow-X: hidden;
+    overflow-y: inherit;
    }
 
    .logo {
