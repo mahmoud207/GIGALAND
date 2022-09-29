@@ -186,10 +186,6 @@ section {
     display: none;
    }
 
-   .page {
-    overflow-X: hidden;
-    overflow-y: inherit;
-   }
 
    .logo {
     width: 150px;
