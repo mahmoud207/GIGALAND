@@ -194,7 +194,7 @@ section {
    }
 
    .hamburger.active .bar:nth-child( 2 ) {
-    opacity: 0 ;
+    transform: translateX(2500%);
  }
    .hamburger.active .bar:nth-child( 1 ) {
     transform: translateY(8px) rotate(45deg) ;
@@ -233,7 +233,9 @@ section {
     display: none;
    }
    .connect {
-    display: none;
+    margin: auto;
+    padding: auto;
+    transform: translateX(-10%);
    }
 
    .page {
@@ -245,7 +247,7 @@ section {
     transform: translateX(50%);
     text-align: center;
     padding: 0;
-    margin: 0;
+    margin: auto;
     max-width: 100%;
   }
   .info h1 {
