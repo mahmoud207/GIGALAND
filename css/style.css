@@ -187,6 +187,7 @@ section {
     padding: 200px 60px;
     height: auto;
     margin: auto;
+    overflow-Y: hidden;
 
 }
 
