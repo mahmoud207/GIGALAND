@@ -185,6 +185,7 @@ section {
 .container {
     background: linear-gradient(to top, #020102, #232023, #393b3d);
     padding: 200px 60px;
+    height: auto;
     margin: auto;
 
 }
