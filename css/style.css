@@ -184,8 +184,7 @@ section {
 
 .container {
     background: linear-gradient(to top, #020102, #232023, #393b3d);
-    height: 100vh;
-    padding:  60px;
+    padding: 200px 60px;
     margin: auto;
 
 }
@@ -234,6 +233,9 @@ section {
    .hamburger {
     display: block;
     z-index: 2;
+   }
+
+   .hamburger.active {
     position: fixed;
    }
 
