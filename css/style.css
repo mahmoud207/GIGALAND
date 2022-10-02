@@ -306,6 +306,7 @@ section {
  .explore {
     margin: auto;
   }
+  
 
   .row h3 {
     font-size: 30px;
@@ -329,6 +330,16 @@ section {
         max-width: 100%;
       }
 
+
+      .one{
+        padding-right: 10px;
+      }
+      .two{
+        padding-right: 10px;
+      }
+      .three{
+       
+      }
 
     .wallets {
         margin: 30px;
